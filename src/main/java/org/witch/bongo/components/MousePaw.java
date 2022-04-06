@@ -86,10 +86,10 @@ public class MousePaw extends JLabel
 			double midY = (1 - t) * (1 - t) * startY + 2 * (1 - t) * t * controlPointY + t * t * endY;
 			
 
-			g2d.setColor(Color.WHITE);
-			g2d.fill(curve);
-			g2d.setColor(Color.BLACK);
-			g2d.draw(curve);
+			//g2d.setColor(Color.WHITE);
+			//g2d.fill(curve);
+			//g2d.setColor(Color.BLACK);
+			//g2d.draw(curve);
 			int imageX = (int) (midX - (pen.getWidth() / 2));
 			int imageY = (int) (midY - (pen.getHeight() / 2));
 			g2d.drawImage(pen,
